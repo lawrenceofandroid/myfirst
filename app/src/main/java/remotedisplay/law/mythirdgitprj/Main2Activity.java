@@ -1,9 +1,8 @@
 package remotedisplay.law.mythirdgitprj;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity
 {
@@ -13,5 +12,8 @@ public class Main2Activity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout555);
+
+        TextView tv = (TextView) findViewById(R.id.textView3);
+        tv.setText("This is lawrence Leung and I still miss Alice .... :-(((");
     }
 }
