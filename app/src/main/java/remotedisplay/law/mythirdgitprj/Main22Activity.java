@@ -7,7 +7,6 @@ import android.widget.TextView;
 
 public class Main22Activity extends AppCompatActivity
 {
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -24,6 +23,4 @@ public class Main22Activity extends AppCompatActivity
             }
         });
     }
-
-
 }
