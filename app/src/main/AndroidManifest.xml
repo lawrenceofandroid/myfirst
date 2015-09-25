@@ -22,7 +22,12 @@
             android:label="@string/title_activity_main2" >
         </activity>
 
-        <service android:name="helloservice"></service>
+        <service android:name=".helloservice"/>
+
+        <activity
+            android:name=".Main22Activity"
+            android:label="@string/title_activity_main22">
+        </activity>
     </application>
 
 </manifest>
