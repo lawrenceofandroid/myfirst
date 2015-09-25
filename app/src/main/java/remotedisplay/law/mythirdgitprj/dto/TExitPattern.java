@@ -5,4 +5,6 @@ package remotedisplay.law.mythirdgitprj.dto;
  */
 public class TExitPattern
 {
+
+    private String hello;
 }
